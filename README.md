@@ -51,11 +51,11 @@ Anisha, Brett, Jason, Michael and Zinia
 
 ## Live Website
 
-<https://brettshackett.github.io/Pay-Up/>
+https://zmaha106.github.io/project-1/
 
 ## GitHub Repo
 
-<https://github.com/brettshackett/Pay-Up>
+https://github.com/Zmaha106/project-1.git
 
 ## @Copyright
 
