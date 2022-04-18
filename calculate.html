@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay Up Calculation Page</title>
+
+
+    <link rel="stylesheet" href="./assets/css/foundation.css" />
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/css/foundation.min.css" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/secondary-styles.css" />
+</head>
+<body>
+
+
+    
+    <!--Main Section-->
+    <main class="page-content align-center-middle input-group" id="page-content">
+        <section class="bill-list-wrapper">
+          <h2 class="list-title">Current Bill</h2>
+          <ul class="bill-list" id="bill-to-calc"></ul>
+          <div class="grid-x grid-padding-x align-center">
+            <input class="input-form cell small-4" type="text" name="names" placeholder="Person 1" />
+            <br>
+            <input class="input-form cell small-4" type="text" name="amount" placeholder="How much is the bill?" />
+          </div>
+          <div class="grid-x grid-padding-x align-center">
+            <input class="input-form-2 cell small-4" type="text" name="names" placeholder="Person 2" />
+            <br>
+            <input class="input-form-2 cell small-4" type="text" name="amount" placeholder="How much is the bill?" />
+          </div>
+            <!--
+             <input type="text" name="names" placeholder="Person 2" />
+            <br>
+            <input type="text" name="amount" placeholder="How much is the bill?" />
+            <input type="text" name="names" placeholder="Person 3" />
+            <br>
+            <input type="text" name="amount" placeholder="How much is the bill?" />
+            <input type="text" name="names" placeholder="Person 4" />
+            <br>
+            <input type="text" name="amount" placeholder="How much is the bill?" />
+            <input type="text" name="names" placeholder="Person 5 " />
+            <br>
+            <input type="text" name="amount" placeholder="How much is the bill?" />
+            -->
+            
+            <div class="bill-calculation">
+              <button class="btn" id="calculate" type="submit">Calculate</button>
+            </div>
+
+            <footer class="align-center">
+              <h3 class="FXConvert">Currency Conversion USD to EUR</h3>
+              <p class="FX-para" >Click the button below to convert from USD to EUR (US dollars to European Euros)</p>
+              
+              <div class="grid-x grid-padding-x align-center">
+                <input class="input-form cell small-4" type="text" name="amount" placeholder="USD" />
+              </div> 
+               <div class="To align-center-middle">To</div>
+             <div class="grid-x grid-padding-x align-center">
+               <input class="input-form-2 cell small-4" type="text" name="amount" placeholder="EUR" />
+            </div>
+
+              <button class="btnConvert">Click!</button>
+
+          </footer>
+    
+        </section>
+
+        
+<script src="./assets/js/script.js"></script>
+    
+</body>
+
+
+
+
+</html>
